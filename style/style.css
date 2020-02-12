@@ -1,0 +1,60 @@
+.bg-black {
+  background-color: #272a31;
+}
+
+.text-black {
+  color: #272a31;
+}
+
+.bg-red {
+  background-color: #ec5242;
+}
+
+.text-red {
+  color: #ec5242;
+}
+
+.bg-grey {
+  background-color: #d3d3d3;
+}
+
+.text-grey {
+  color: #d3d3d3;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.transparent {
+  background: transparent;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.s-30 {
+  width: 30px;
+  height: 30px;
+}
+
+.entrance {
+  background: url("../images/programmer-1653351.svg") cover;
+  opacity: 0.5;
+  height: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .d-block-lg {
+    display: block;
+  }
+  .d-none-lg {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

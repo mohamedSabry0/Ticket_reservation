@@ -1,0 +1,48 @@
+$colors: (black: #272a31, red: #ec5242, grey: #d3d3d3);
+
+@each $color, $code in $colors {
+  .bg-#{$color} {
+    background-color: $code;
+  }
+
+  .text-#{$color} {
+    color: $code;
+  }
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+.transparent {
+  background: transparent;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.s-30 {
+  width: 30px;
+  height: 30px;
+}
+
+.entrance {
+  background: url("../images/programmer-1653351.svg") cover;
+  opacity: 0.5;
+  height: 500px;
+}
+
+@media screen and (min-width:768px){
+  .d-block-lg {
+    display: block;
+  }
+
+  .d-none-lg {
+    display: none;
+  }
+}
