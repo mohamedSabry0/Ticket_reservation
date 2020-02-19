@@ -1,4 +1,5 @@
 $colors: (black: #272a31, red: #ec5242, grey: #d3d3d3);
+@import 'reset';
 
 @each $color, $code in $colors {
   .bg-#{$color} {
@@ -10,13 +11,34 @@ $colors: (black: #272a31, red: #ec5242, grey: #d3d3d3);
   }
 }
 
-.d-none {
-  display: none;
+$displays : (flex, block, none, inline);
+@mixin display($list, $screen) {
+  @each $type in $list{
+    .d-#{$type}#{$screen} {
+      display: $type;
+    }
+  }
 }
 
-.d-block {
-  display: block;
+@include display($displays, '');
+
+@mixin generator($class, $times, $type){
+  @for $i from 1 to $times + 1 {
+    .#{$class}-#{$i} {
+      #{$type}: 0.25rem * $i;
+    }
+    @media screen and (min-width: 768px) {
+      @for $i from 1 to $times + 1 {
+        .#{$class}-lg-#{$i} {
+          #{$type}: 0.25rem * $i;
+        }
+      }
+    }
+  }
 }
+
+@include generator(p, 5, padding);
+@include generator(m, 5, margin);
 
 .transparent {
   background: transparent;
@@ -32,17 +54,16 @@ $colors: (black: #272a31, red: #ec5242, grey: #d3d3d3);
 }
 
 .entrance {
-  background: url("../images/programmer-1653351.svg") cover;
-  opacity: 0.5;
+  background: url("../images/programmer-1653351.svg");
+  opacity: 0.3;
   height: 500px;
+  position: relative;
+  top: -35px;
 }
 
 @media screen and (min-width:768px){
-  .d-block-lg {
-    display: block;
-  }
-
-  .d-none-lg {
-    display: none;
+  @include display($displays, '-lg');
+  .entrance {
+    top: 0;
   }
 }
