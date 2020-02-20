@@ -1,0 +1,63 @@
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.entrance-title {
+  padding-top: 40px;
+}
+
+.heading-discription {
+  position: relative;
+  z-index: 2;
+  bottom: 100px;
+}
+
+.heading-image {
+  mix-blend-mode: difference;
+  width: 100%;
+}
+
+.syllabus-icon {
+  width: 80px;
+}
+
+.entrance {
+  position: relative;
+}
+
+.w-30 {
+  width: 30%;
+  flex-basis: 30%;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.entrance-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0.3;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.date {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.copyright-logo {
+  width: 90px;
+}

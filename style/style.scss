@@ -1,4 +1,4 @@
-$colors: (black: #272a31, red: #ec5242, grey: #d3d3d3);
+$colors: (black: #272a31, red: #ec5242, grey: #d3d3d3, white:#ffffff);
 @import 'reset';
 
 @each $color, $code in $colors {
@@ -37,8 +37,32 @@ $displays : (flex, block, none, inline);
   }
 }
 
-@include generator(p, 5, padding);
-@include generator(m, 5, margin);
+@include generator(p, 7, padding);
+@include generator(m, 12, margin);
+
+$flex-position: (center, flex-end, flex-start, space-between , space-around, space-evenly);
+
+@each $type in $flex-position {
+  .justify-#{$type} {
+    justify-content: $type;
+  }
+  
+  .align-items-#{$type} {
+    align-items: $type;
+  }
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.bigger {
+  font-size: 150%;
+}
+
+.smaller {
+  font-size: 70%;
+}
 
 .transparent {
   background: transparent;
@@ -46,6 +70,7 @@ $displays : (flex, block, none, inline);
 
 .w-100 {
   width: 100%;
+  flex-basis: 100%;
 }
 
 .s-30 {
@@ -54,11 +79,9 @@ $displays : (flex, block, none, inline);
 }
 
 .entrance {
-  background: url("../images/programmer-1653351.svg");
-  opacity: 0.3;
   height: 500px;
-  position: relative;
-  top: -35px;
+  position: absolute;
+  top: -55px;
 }
 
 @media screen and (min-width:768px){
