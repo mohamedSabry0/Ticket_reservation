@@ -1,0 +1,42 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="402" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_2" height="50" width="50" y="0" x="-0.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_3" height="50" width="50" y="0" x="199.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_4" height="50" width="50" y="0" x="99.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect y="0" id="svg_6" height="50" width="50" x="299.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_8" height="50" width="50" y="50" x="49.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_9" height="50" width="50" y="50" x="249.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_10" height="50" width="50" y="50" x="149.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect y="50" id="svg_11" height="50" width="50" x="349.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_12" height="50" width="50" y="100" x="-0.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_13" height="50" width="50" y="100" x="199.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_14" height="50" width="50" y="100" x="99.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect y="100" id="svg_15" height="50" width="50" x="299.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_16" height="50" width="50" y="150" x="49.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_17" height="50" width="50" y="150" x="249.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_18" height="50" width="50" y="150" x="149.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect y="150" id="svg_19" height="50" width="50" x="349.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_20" height="50" width="50" y="200" x="-0.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_21" height="50" width="50" y="200" x="199.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_22" height="50" width="50" y="200" x="99.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect y="200" id="svg_23" height="50" width="50" x="299.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_24" height="50" width="50" y="250" x="49.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_25" height="50" width="50" y="250" x="249.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_26" height="50" width="50" y="250" x="149.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect y="250" id="svg_27" height="50" width="50" x="349.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_28" height="50" width="50" y="300" x="-0.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_29" height="50" width="50" y="300" x="199.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_30" height="50" width="50" y="300" x="99.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect y="300" id="svg_31" height="50" width="50" x="299.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_32" height="50" width="50" y="350" x="49.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_33" height="50" width="50" y="350" x="249.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect id="svg_34" height="50" width="50" y="350" x="149.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+  <rect y="350" id="svg_35" height="50" width="50" x="349.5" stroke-width="0" stroke="#000" fill="#d3d3d3"/>
+ </g>
+</svg>

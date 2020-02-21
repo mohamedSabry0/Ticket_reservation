@@ -872,12 +872,6 @@ a {
   height: 30px;
 }
 
-.entrance {
-  height: 500px;
-  position: absolute;
-  top: -55px;
-}
-
 @media screen and (min-width: 768px) {
   .d-flex-lg {
     display: -webkit-box;

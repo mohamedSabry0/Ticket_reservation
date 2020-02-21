@@ -78,12 +78,6 @@ $flex-position: (center, flex-end, flex-start, space-between , space-around, spa
   height: 30px;
 }
 
-.entrance {
-  height: 500px;
-  position: absolute;
-  top: -55px;
-}
-
 @media screen and (min-width:768px){
   @include display($displays, '-lg');
   .entrance {
