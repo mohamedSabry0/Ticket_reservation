@@ -23,12 +23,12 @@ $displays : (flex, block, none, inline);
 @include display($displays, '');
 
 @mixin generator($class, $times, $type){
-  @for $i from 1 to $times + 1 {
+  @for $i from 0 to $times + 1 {
     .#{$class}-#{$i} {
       #{$type}: 0.25rem * $i;
     }
     @media screen and (min-width: 768px) {
-      @for $i from 1 to $times + 1 {
+      @for $i from 0 to $times + 1 {
         .#{$class}-lg-#{$i} {
           #{$type}: 0.25rem * $i;
         }
@@ -82,5 +82,14 @@ $flex-position: (center, flex-end, flex-start, space-between , space-around, spa
   @include display($displays, '-lg');
   .entrance {
     top: 0;
+  }
+  @each $type in $flex-position {
+    .justify-#{$type}-lg {
+      justify-content: $type;
+    }
+    
+    .align-items-#{$type}-lg {
+      align-items: $type;
+    }
   }
 }

@@ -7,6 +7,11 @@
   padding-top: 40px;
 }
 
+.entrance > *, 
+.entrance time{
+  z-index: 2;
+}
+
 .bg-lighter {
   background: #3e3e3e;
 }
@@ -103,6 +108,7 @@
   width: 100%;
   height: 100%;
   opacity: 0.3;
+  z-index: 0;
 }
 
 .position-absolute {
@@ -114,11 +120,72 @@
 }
 
 .date {
-  font-size: 25px;
+  font-size: 1rem;
   font-weight: 700;
 }
 
 .copyright-logo {
   width: 90px;
+}
+
+@media screen and (min-width:768px) {
+  header > * {
+    padding: 0 80px;
+  }
+
+  .date {
+    font-size: 2rem;
+  }
+
+  .syllabus-icon {
+    padding: 0;
+  }
+
+  .syllabus-icon[src*="Rails"] {
+    height: 75px;
+  }
+
+  .smaller-lg {
+    font-size: 80%;
+  }
+
+  .column-lg {
+    flex-direction: column;
+  }
+
+  .syllabus {
+    margin-top: 0;
+  }
+
+  .syllabus h3 {
+    width: auto;
+    flex-basis: auto;
+  }
+
+  .unwrap-lg {
+    flex-wrap: nowrap;
+  }
+
+  .syllabus div {
+    flex: 1 1 20%;
+  }
+
+  .entrance {
+    position: relative;
+  }
+
+  .syllabus div div > *{
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .w-50-lg {
+    width: 50%;
+    flex-basis: 50%;
+  }
+  .lecturer {
+    margin: 0;
+  }
 }
 
