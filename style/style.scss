@@ -40,7 +40,8 @@ $displays : (flex, block, none, inline);
 @include generator(p, 7, padding);
 @include generator(m, 12, margin);
 
-$flex-position: (center, flex-end, flex-start, space-between , space-around, space-evenly);
+$flex-position: (center, flex-end, flex-start);
+$flex-spacing: (space-between , space-around, space-evenly);
 
 @each $type in $flex-position {
   .justify-#{$type} {
@@ -50,7 +51,22 @@ $flex-position: (center, flex-end, flex-start, space-between , space-around, spa
   .align-items-#{$type} {
     align-items: $type;
   }
+  .align-self-#{$type} {
+    align-self: $type;
+  }
 }
+
+@each $type in $flex-spacing {
+  .justify-#{$type} {
+    justify-content: $type;
+  }
+  
+  .align-items-#{$type} {
+    align-items: $type;
+  }
+}
+
+
 
 .bold {
   font-weight: 700;
@@ -91,5 +107,9 @@ $flex-position: (center, flex-end, flex-start, space-between , space-around, spa
     .align-items-#{$type}-lg {
       align-items: $type;
     }
+  }
+
+  .bigger-lg {
+    font-size: 150%;
   }
 }
