@@ -118,7 +118,7 @@
 .position-relative {
   position: relative;
 }
-
+/* syllabus icon padding should be deleted */
 .date {
   font-size: 1rem;
   font-weight: 700;
