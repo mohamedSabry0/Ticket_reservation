@@ -13,14 +13,21 @@
 }
 
 .bg-lighter {
-  background: #3e3e3e;
+  background: #ffffff0e;
 }
 
 .heading-discription {
   position: relative;
   z-index: 2;
   border: 3px solid #ffffff;
+}
+
+.bg-light-grey {
   background: #f1f1f1;
+}
+
+.border {
+  border: 1px #f1f1f1 solid;
 }
 
 .heading-image {
@@ -150,6 +157,23 @@
   text-align: center;
 }
 
+.course-review {
+  position: relative;
+}
+
+.review-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #ec5242;
+  opacity: 0.4;
+}
+
+.fore {
+  z-index: 99;
+}
 
 @media screen and (min-width:768px) {
   .side-padding {
