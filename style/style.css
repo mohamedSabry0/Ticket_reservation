@@ -11,6 +11,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .bg-black {
   background-color: #272a31;
 }
@@ -1019,6 +1023,14 @@ a {
 .s-30 {
   width: 30px;
   height: 30px;
+}
+
+.menu-btn + div {
+  display: none;
+}
+
+.menu-btn:hover + div {
+  display: block;
 }
 
 @media screen and (min-width: 768px) {

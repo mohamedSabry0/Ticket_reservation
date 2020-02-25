@@ -94,6 +94,14 @@ $flex-spacing: (space-between , space-around, space-evenly);
   height: 30px;
 }
 
+.menu-btn + div {
+  display: none;
+}
+
+.menu-btn:hover + div{
+  display: block;
+}
+
 @media screen and (min-width:768px){
   @include display($displays, '-lg');
   .entrance {
