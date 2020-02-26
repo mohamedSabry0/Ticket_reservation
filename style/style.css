@@ -1025,20 +1025,22 @@ ul {
   height: 30px;
 }
 
-.menu-btn + div {
+button.menu-btn + div {
   display: none;
   top: -10px;
 }
 
-.menu-btn:hover + div,
-.nav-menu:hover,
-.menu-btn:focus + div,
-.nav-menu:focus {
+button.menu-btn:hover + div,
+button.menu-btn:active + div,
+button.menu-btn:focus + div,
+div.nav-menu:hover,
+div.nav-menu:active,
+div.nav-menu:focus {
   display: block;
 }
 
-.h-100 {
-  height: 100%;
+.border-none {
+  border: none;
 }
 
 @media screen and (min-width: 768px) {
