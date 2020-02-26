@@ -96,9 +96,13 @@ $flex-spacing: (space-between , space-around, space-evenly);
 
 .menu-btn + div {
   display: none;
+  top: -10px;
 }
 
-.menu-btn:hover + div{
+.menu-btn:hover + div,
+.nav-menu:hover,
+.menu-btn:focus + div,
+.nav-menu:focus {
   display: block;
 }
 
