@@ -106,6 +106,10 @@ $flex-spacing: (space-between , space-around, space-evenly);
   display: block;
 }
 
+.h-100 {
+  height: 100%;
+}
+
 @media screen and (min-width:768px){
   @include display($displays, '-lg');
   .entrance {
