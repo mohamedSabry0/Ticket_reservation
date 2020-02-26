@@ -7,7 +7,7 @@
   padding-top: 40px;
 }
 
-.entrance > *,
+.entrance>*,
 .entrance time {
   z-index: 2;
 }
@@ -240,7 +240,11 @@
     position: relative;
   }
 
-  .syllabus div div > * {
+  .tickets-table * {
+    padding: 1rem;
+  }
+
+  .syllabus div div>* {
     margin: 0;
     padding-left: 0;
     padding-right: 0;
@@ -262,9 +266,5 @@
 
   .copyright-logo {
     width: 90px;
-  }
-
-  .tickets-table * {
-    padding: 1rem;
   }
 }
