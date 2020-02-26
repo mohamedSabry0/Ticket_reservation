@@ -129,6 +129,7 @@
 .entrance-image {
   position: absolute;
   background: url('../images/programmer-1653351.svg');
+  background-size: contain;
   top: 0;
   bottom: 0;
   left: 0;

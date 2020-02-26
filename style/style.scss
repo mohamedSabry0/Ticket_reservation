@@ -1,6 +1,6 @@
 $colors: (black: #272a31, red: #ec5242, grey: #d3d3d3, white:#ffffff);
 @import 'reset';
-
+@import 'fonts';
 @each $color, $code in $colors {
   .bg-#{$color} {
     background-color: $code;

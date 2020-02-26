@@ -15,6 +15,35 @@ ul {
   list-style: none;
 }
 
+@font-face {
+  font-family: 'cocogoose';
+  src: url("../fonts/Cocogoose.woff");
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url("../fonts/Lato-Regular.woff");
+}
+
+@font-face {
+  font-family: 'lato';
+  src: url("../fonts/Lato-Bold.woff");
+  font-weight: 700;
+}
+
+.lato-reg {
+  font-family: 'lato';
+}
+
+.lato-bold {
+  font-family: 'lato';
+  font-weight: 700;
+}
+
+.cocogoose {
+  font-family: 'cocogoose';
+}
+
 .bg-black {
   background-color: #272a31;
 }
