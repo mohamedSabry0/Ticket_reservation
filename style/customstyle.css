@@ -3,7 +3,7 @@
   height: 20px;
 }
 
-.entrance-title {
+.pt-40 {
   padding-top: 40px;
 }
 
@@ -30,6 +30,11 @@
   border: 1px #f1f1f1 solid;
 }
 
+.heading {
+  font-size: 8.2vw;
+  margin: 0;
+}
+
 .heading-image {
   mix-blend-mode: difference;
   width: 100%;
@@ -40,9 +45,12 @@
 }
 
 .entrance {
-  height: 500px;
   position: absolute;
   top: 0;
+}
+
+.flex-1 {
+  flex: 1 1 45%;
 }
 
 .w-20 {
@@ -111,7 +119,7 @@
 
 .lecturer::before {
   content: "";
-  background: url('../images/chess.svg');
+  background: url('../images/chess-black.svg');
   background-size: 50%;
   position: absolute;
   top: 0;
@@ -199,8 +207,29 @@
     margin-top: 0;
   }
 
+  .lecturer::before {
+    content: "";
+    background: url('../images/chess.svg');
+    background-size: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+  }
+
+  .w-20-lg {
+    width: 20%;
+    flex-basis: 20%;
+  }
+
   .side-padding {
     padding: 0 100px;
+  }
+
+  .pb-30 {
+    padding-bottom: 30px;
   }
 
   .date {
@@ -253,10 +282,6 @@
   .w-50-lg {
     width: 50%;
     flex-basis: 50%;
-  }
-
-  .lecturer {
-    margin: 0;
   }
 
   .w-25-lg {
