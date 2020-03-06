@@ -47,10 +47,11 @@
 .entrance {
   position: absolute;
   top: 0;
+  min-height: 520px;
 }
 
 .flex-1 {
-  flex: 1 1 45%;
+  flex-basis: 250px;
 }
 
 .w-20 {
@@ -202,6 +203,10 @@
   padding: 0.6rem;
 }
 
+.mw-130 {
+  max-width: 130px;
+}
+
 @media screen and (min-width: 768px) {
   .margin-top-470 {
     margin-top: 0;
@@ -287,6 +292,10 @@
   .w-25-lg {
     width: 25%;
     flex-basis: 25%;
+  }
+
+  .flex-1-lg {
+    flex: 1 1 50%;
   }
 
   .copyright-logo {
