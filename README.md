@@ -77,8 +77,11 @@ Mohamed Sabry - [Github profile](https://github.com/mohamedSabry0)
 
 Project Link: [https://github.com/mohamedSabry0/capstone-project/](https://github.com/mohamedSabry0/capstone-project/)
 
-## refrences and tools:
+## acknowledgement, refrences and tools:
+### used images from :
+- https://unsplash.com/
 
-https://css-tricks.com/attribute-selectors/
-https://editor.method.ac/
-https://www.w3schools.com/css/css_combinators.asp
+### some refrences and tools were taken from:
+- https://css-tricks.com/attribute-selectors/
+- https://editor.method.ac/
+- https://www.w3schools.com/css/css_combinators.asp
