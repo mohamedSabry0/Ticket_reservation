@@ -109,7 +109,6 @@
 
 .lecturer {
   position: relative;
-  margin-left: 1rem;
 }
 
 .lecturer img {
@@ -123,8 +122,8 @@
   background: url('../images/chess-black.svg');
   background-size: 50%;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -8px;
+  left: -8px;
   width: 60px;
   height: 60px;
   z-index: 1;
@@ -203,8 +202,13 @@
   padding: 0.6rem;
 }
 
-.mw-130 {
-  max-width: 130px;
+.w-80p {
+  width: 80px;
+}
+
+.lecturer-img {
+  width: 80px;
+  height: 80px;
 }
 
 .sponser {
@@ -222,8 +226,8 @@
     background: url('../images/chess.svg');
     background-size: 50%;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -8px;
+    left: -8px;
     width: 60px;
     height: 60px;
     z-index: 1;
@@ -301,6 +305,10 @@
 
   .flex-1-lg {
     flex: 1 1 50%;
+  }
+
+  .basis-40-lg {
+    flex-basis: 40%;
   }
 
   .copyright-logo {
