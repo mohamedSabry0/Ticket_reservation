@@ -1,0 +1,317 @@
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.entrance > *,
+.entrance time {
+  z-index: 2;
+}
+
+.bg-lighter {
+  background: #ffffff0e;
+}
+
+.heading-discription {
+  position: relative;
+  z-index: 2;
+  border: 3px solid #fff;
+}
+
+.bg-light-grey {
+  background: #f1f1f1;
+}
+
+.border {
+  border: 1px #f1f1f1 solid;
+}
+
+.heading {
+  font-size: 8.2vw;
+  margin: 0;
+}
+
+.heading-image {
+  mix-blend-mode: difference;
+  width: 100%;
+}
+
+.syllabus-icon {
+  width: 75px;
+}
+
+.entrance {
+  position: absolute;
+  top: 0;
+  min-height: 520px;
+}
+
+.flex-1 {
+  flex-basis: 250px;
+}
+
+.w-20 {
+  width: 20%;
+  flex-basis: 20%;
+}
+
+.w-50 {
+  width: 50%;
+  flex-basis: 50%;
+}
+
+.w-81 {
+  width: 81%;
+  flex-basis: 81%;
+}
+
+.syllabus h3 {
+  flex: 1 1 15%;
+  padding: 0.5rem;
+}
+
+.syllabus p {
+  flex: 1 1 35%;
+}
+
+.tiny-border {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.tiny-border::after {
+  position: absolute;
+  bottom: -15px;
+  content: "";
+  display: block;
+  width: 50px;
+  height: 1px;
+  background-color: #ec5242;
+}
+
+.margin-top-470 {
+  margin-top: 470px;
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+.syllabus h3,
+.syllabus p {
+  width: 100%;
+}
+
+.lecturer {
+  position: relative;
+}
+
+.lecturer img {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+}
+
+.lecturer::before {
+  content: "";
+  background: url('../images/chess-black.svg');
+  background-size: 50%;
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.entrance-image {
+  position: absolute;
+  background: url('../images/programmer-1653351.svg');
+  background-size: contain;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.date {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.copyright-logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.course-review {
+  position: relative;
+}
+
+.review-background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #ec5242;
+  opacity: 0.4;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.fore {
+  z-index: 99;
+}
+
+.tickets-table {
+  border: 1px solid #d3d3d3;
+  border-collapse: collapse;
+}
+
+.tickets-table * {
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  padding: 0.6rem;
+}
+
+.w-80p {
+  width: 80px;
+}
+
+.lecturer-img {
+  width: 80px;
+  height: 80px;
+}
+
+.sponser {
+  max-width: 150px;
+  padding: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .margin-top-470 {
+    margin-top: 0;
+  }
+
+  .lecturer::before {
+    content: "";
+    background: url('../images/chess.svg');
+    background-size: 50%;
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+  }
+
+  .w-20-lg {
+    width: 20%;
+    flex-basis: 20%;
+  }
+
+  .side-padding {
+    padding: 0 100px;
+  }
+
+  .pb-30 {
+    padding-bottom: 30px;
+  }
+
+  .date {
+    font-size: 2rem;
+  }
+
+  .syllabus-icon[src*="Rails"] {
+    height: 75px;
+  }
+
+  .smaller-lg {
+    font-size: 80%;
+  }
+
+  .column-lg {
+    flex-direction: column;
+  }
+
+  .syllabus {
+    margin-top: 0;
+  }
+
+  .syllabus h3 {
+    width: auto;
+    flex-basis: auto;
+  }
+
+  .unwrap-lg {
+    flex-wrap: nowrap;
+  }
+
+  .syllabus div {
+    flex: 1 1 20%;
+  }
+
+  .entrance {
+    position: relative;
+  }
+
+  .tickets-table * {
+    padding: 1rem;
+  }
+
+  .syllabus div div > * {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .w-50-lg {
+    width: 50%;
+    flex-basis: 50%;
+  }
+
+  .w-25-lg {
+    width: 25%;
+    flex-basis: 25%;
+  }
+
+  .flex-1-lg {
+    flex: 1 1 50%;
+  }
+
+  .basis-40-lg {
+    flex-basis: 40%;
+  }
+
+  .copyright-logo {
+    width: 90px;
+  }
+}
