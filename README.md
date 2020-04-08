@@ -21,7 +21,7 @@ and following the insturctions given by Microverse
     <a href="https://github.com/mohamedSabry0/capstone-project/"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://raw.githack.com/mohamedSabry0/capstone-project/development/index.html">View Demo</a>
+    <a href="https://raw.githack.com/mohamedSabry0/capstone-project/master/index.html">View Demo</a>
     ·
     <a href="https://github.com/mohamedSabry0/capstone-project/issues">Report Bug</a>
     ·
