@@ -7,7 +7,7 @@ and following the insturctions given by Microverse
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/mohamedSabry0/capstone-project/">
+  <a href="https://github.com/mohamedSabry0/Ticket_reservation/">
     <img src="images/logo.png" alt="Logo" width="200">
 
   </a>
@@ -18,14 +18,14 @@ and following the insturctions given by Microverse
     An attempt at recreating the responsive three pages of the website design
     (https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
     <br />
-    <a href="https://github.com/mohamedSabry0/capstone-project/"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/mohamedSabry0/Ticket_reservation"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://raw.githack.com/mohamedSabry0/capstone-project/master/index.html">View Demo</a>
+    <a href="https://raw.githack.com/mohamedSabry0/Ticket_reservation/master/index.html">View Demo</a>
     ·
-    <a href="https://github.com/mohamedSabry0/capstone-project/issues">Report Bug</a>
+    <a href="https://github.com/mohamedSabry0/Ticket_reservation/issues">Report Bug</a>
     ·
-    <a href="https://github.com/mohamedSabry0/capstone-project/issues">Request Feature</a>
+    <a href="https://github.com/mohamedSabry0/Ticket_reservation/issues">Request Feature</a>
   </p>
 </p>
 
