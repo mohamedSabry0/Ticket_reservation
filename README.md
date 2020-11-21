@@ -1,4 +1,4 @@
-# capstone-project
+# Ticket Reservation Site
 HTML and CSS capstone project
 based on the <a href="https://www.behance.net/gallery/29845175/CC-Global-Summit-2015">Design</a> created by <a href="https://www.behance.net/adagio07">Cindy Shin</a> for CC Global Summit 2015 website
 
